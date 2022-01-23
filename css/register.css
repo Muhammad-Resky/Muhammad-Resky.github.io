@@ -1,0 +1,92 @@
+.medsos{
+	padding: 10px 0;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+header h1{
+	float: center;
+	padding: 15px 15px;
+	color: #c44545;
+}
+
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #404649;
+	color: #fff;
+}
+
+.active{
+	color: #fff;
+}
+
+body{
+    margin: 0;
+    font-size: .14px;
+    font-weight: 1000;
+    line-height: 1.6;
+    color: #1a3652;
+    text-align: left;
+    background-image: url(../img/bg_login.jpeg);
+}
+
+.navbar-laravel
+{
+    box-shadow: 0 2px 4px rgba(168, 7, 7, 0.04);
+}
+
+.nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+.navbar-brand a
+{
+    text-align: center;
+}
+
+.my-form
+{
+    padding-top: 2.0rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
